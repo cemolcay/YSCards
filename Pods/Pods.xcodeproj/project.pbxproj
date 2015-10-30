@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CE02E27C39F644961035CB3A7464B3 /* ALKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5E62B8FE9803724AF83109EC84DC57 /* ALKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6B256CA8FF7812A7DAF943F4B658F8 /* ALKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC30EADD3A78CA15EA700F8EC1F0939 /* ALKit-dummy.m */; };
+		686CFBD83AE89472D1E862207BF49B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		851397875D9C564168B5F61490C1B120 /* Pods-YSCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DFC196BF377F0A5B9A18375C3C54D /* Pods-YSCards-dummy.m */; };
+		9B10D9BAAEFBFBFF9C656EF21EF3F2B4 /* Pods-YSCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCB3B3FFA510BBC89B03B73CAC808BE /* Pods-YSCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDE635FB08F2C22E6BF0680C314BC3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FE4804691C452E1D229B0EBE1FD7DB81 /* ALKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7E8B5FD8C21C81E54E997ECD2FF59 /* ALKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1589EC7116D60B5C5CB0782DE2644E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E6D5C04D74F1040CE54AE8BE4A7DC7;
+			remoteInfo = ALKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A694E6A5BEB559C94B4690DDEA7FBB4 /* Pods-YSCards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSCards-acknowledgements.plist"; sourceTree = "<group>"; };
+		10FA890B762CDDF3E796A8D426B0D2C6 /* Pods-YSCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCards.release.xcconfig"; sourceTree = "<group>"; };
+		3A74AF5B0CC2B5211F9389D0D6F02772 /* Pods-YSCards-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSCards-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4ADEEE662905D1A6CDE2FB28EB5D27EF /* Pods-YSCards-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSCards-frameworks.sh"; sourceTree = "<group>"; };
+		66EBAF821D09553E7C2EC778F0A56A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7354064A930237FEABD3692ECD27B021 /* ALKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCB3B3FFA510BBC89B03B73CAC808BE /* Pods-YSCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSCards-umbrella.h"; sourceTree = "<group>"; };
+		7F42C0D11E4DA69D7E6FD412E7691E33 /* ALKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALKit-prefix.pch"; sourceTree = "<group>"; };
+		9D12E7CE872485F19D429A6C46DC808A /* Pods-YSCards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSCards-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A55DFC196BF377F0A5B9A18375C3C54D /* Pods-YSCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSCards-dummy.m"; sourceTree = "<group>"; };
+		AFC30EADD3A78CA15EA700F8EC1F0939 /* ALKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALKit-dummy.m"; sourceTree = "<group>"; };
+		B132EFCC6833020CF183036AB33BF036 /* Pods_YSCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64E3AE9FAE8654B792065CE2B4175B5 /* ALKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALKit.modulemap; sourceTree = "<group>"; };
+		BA5E62B8FE9803724AF83109EC84DC57 /* ALKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALKit-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC0DC1969FF957233E3008974C2D2B9B /* ALKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALKit.xcconfig; sourceTree = "<group>"; };
+		C8FA404A1C3D84314A0563226FCCDD0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEF972EC2D497F4618ED922FF96DE92 /* Pods-YSCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSCards.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC67B4581BC4CBE88573A2B0DD5552F /* Pods-YSCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YSCards.modulemap"; sourceTree = "<group>"; };
+		FBF7E8B5FD8C21C81E54E997ECD2FF59 /* ALKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALKit.swift; path = ALKit/ALKit/ALKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFAB18786AD313EBA14070CFBEE9E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686CFBD83AE89472D1E862207BF49B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F502509B0071EEF152C61A1D8D26F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE635FB08F2C22E6BF0680C314BC3FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A81001DF8E1EF085872D5C18F8FBC92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42ECF730284B7726AE1200090CB93E03 /* ALKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E31FE0DE26B94C9B31FCB3CF74719E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64E3AE9FAE8654B792065CE2B4175B5 /* ALKit.modulemap */,
+				BC0DC1969FF957233E3008974C2D2B9B /* ALKit.xcconfig */,
+				AFC30EADD3A78CA15EA700F8EC1F0939 /* ALKit-dummy.m */,
+				7F42C0D11E4DA69D7E6FD412E7691E33 /* ALKit-prefix.pch */,
+				BA5E62B8FE9803724AF83109EC84DC57 /* ALKit-umbrella.h */,
+				C8FA404A1C3D84314A0563226FCCDD0E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALKit";
+			sourceTree = "<group>";
+		};
+		42ECF730284B7726AE1200090CB93E03 /* ALKit */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7E8B5FD8C21C81E54E997ECD2FF59 /* ALKit.swift */,
+				1E31FE0DE26B94C9B31FCB3CF74719E3 /* Support Files */,
+			);
+			path = ALKit;
+			sourceTree = "<group>";
+		};
+		47C47176901CA1861CBA7BF60B5E368B /* Pods-YSCards */ = {
+			isa = PBXGroup;
+			children = (
+				66EBAF821D09553E7C2EC778F0A56A77 /* Info.plist */,
+				EEC67B4581BC4CBE88573A2B0DD5552F /* Pods-YSCards.modulemap */,
+				9D12E7CE872485F19D429A6C46DC808A /* Pods-YSCards-acknowledgements.markdown */,
+				0A694E6A5BEB559C94B4690DDEA7FBB4 /* Pods-YSCards-acknowledgements.plist */,
+				A55DFC196BF377F0A5B9A18375C3C54D /* Pods-YSCards-dummy.m */,
+				4ADEEE662905D1A6CDE2FB28EB5D27EF /* Pods-YSCards-frameworks.sh */,
+				3A74AF5B0CC2B5211F9389D0D6F02772 /* Pods-YSCards-resources.sh */,
+				7DCB3B3FFA510BBC89B03B73CAC808BE /* Pods-YSCards-umbrella.h */,
+				DBEF972EC2D497F4618ED922FF96DE92 /* Pods-YSCards.debug.xcconfig */,
+				10FA890B762CDDF3E796A8D426B0D2C6 /* Pods-YSCards.release.xcconfig */,
+			);
+			name = "Pods-YSCards";
+			path = "Target Support Files/Pods-YSCards";
+			sourceTree = "<group>";
+		};
+		54FF1B014FBC38978E9AB364ECF3E2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7354064A930237FEABD3692ECD27B021 /* ALKit.framework */,
+				B132EFCC6833020CF183036AB33BF036 /* Pods_YSCards.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1A81001DF8E1EF085872D5C18F8FBC92 /* Pods */,
+				54FF1B014FBC38978E9AB364ECF3E2E3 /* Products */,
+				E72DF5436DB94255F4BC6E7865922B12 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E72DF5436DB94255F4BC6E7865922B12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C47176901CA1861CBA7BF60B5E368B /* Pods-YSCards */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5494FEA1FE73F8ECF9EFEB5A75B3BD71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B10D9BAAEFBFBFF9C656EF21EF3F2B4 /* Pods-YSCards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6A359203C9220CC8E852BD1540755C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE02E27C39F644961035CB3A7464B3 /* ALKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		139405092AD881D4FAF3613854011833 /* Pods-YSCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E27872A9DCE8010E644D117C69C539 /* Build configuration list for PBXNativeTarget "Pods-YSCards" */;
+			buildPhases = (
+				1569D72775EB78DEB16D004C267579CE /* Sources */,
+				CDFAB18786AD313EBA14070CFBEE9E45 /* Frameworks */,
+				5494FEA1FE73F8ECF9EFEB5A75B3BD71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241E12BD49A2D81DCBDAF9B9EB296E35 /* PBXTargetDependency */,
+			);
+			name = "Pods-YSCards";
+			productName = "Pods-YSCards";
+			productReference = B132EFCC6833020CF183036AB33BF036 /* Pods_YSCards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2F68BE9476CEE25BFA2C8DB6E7B8A4 /* Build configuration list for PBXNativeTarget "ALKit" */;
+			buildPhases = (
+				55CD0F75B85DFF37A8599E09A2D142B7 /* Sources */,
+				D3F502509B0071EEF152C61A1D8D26F1 /* Frameworks */,
+				AA6A359203C9220CC8E852BD1540755C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALKit;
+			productName = ALKit;
+			productReference = 7354064A930237FEABD3692ECD27B021 /* ALKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 54FF1B014FBC38978E9AB364ECF3E2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */,
+				139405092AD881D4FAF3613854011833 /* Pods-YSCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1569D72775EB78DEB16D004C267579CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851397875D9C564168B5F61490C1B120 /* Pods-YSCards-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CD0F75B85DFF37A8599E09A2D142B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6B256CA8FF7812A7DAF943F4B658F8 /* ALKit-dummy.m in Sources */,
+				FE4804691C452E1D229B0EBE1FD7DB81 /* ALKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241E12BD49A2D81DCBDAF9B9EB296E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALKit;
+			target = F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */;
+			targetProxy = EA1589EC7116D60B5C5CB0782DE2644E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		603976E89029CB2ED98B4C8FC9AD4ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0DC1969FF957233E3008974C2D2B9B /* ALKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALKit/ALKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALKit/ALKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96B07D9ACF587BB154778D9AA6261640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEF972EC2D497F4618ED922FF96DE92 /* Pods-YSCards.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCards/Pods-YSCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YSCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7F63DA89A6928BBD1CE49C3C5168FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0DC1969FF957233E3008974C2D2B9B /* ALKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALKit/ALKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALKit/ALKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA433D31CC622D4A761CF6783B866EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FA890B762CDDF3E796A8D426B0D2C6 /* Pods-YSCards.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YSCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSCards/Pods-YSCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YSCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E27872A9DCE8010E644D117C69C539 /* Build configuration list for PBXNativeTarget "Pods-YSCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B07D9ACF587BB154778D9AA6261640 /* Debug */,
+				CA433D31CC622D4A761CF6783B866EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2F68BE9476CEE25BFA2C8DB6E7B8A4 /* Build configuration list for PBXNativeTarget "ALKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F63DA89A6928BBD1CE49C3C5168FBC /* Debug */,
+				603976E89029CB2ED98B4C8FC9AD4ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
